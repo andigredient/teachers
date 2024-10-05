@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Italiana';
+    src: url('Italiana-Regular.eot');
+    src: local('Italiana'), local('Italiana-Regular'),
+        url('Italiana-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Italiana-Regular.woff2') format('woff2'),
+        url('Italiana-Regular.woff') format('woff'),
+        url('Italiana-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

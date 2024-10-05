@@ -1,0 +1,155 @@
+.font_ubuntu {
+    font-family: "Ubuntu Sans", monospace ;
+    text-align: justify;
+}
+
+.font_italiana {
+    font-family: "Italiana", monospace ;
+}
+
+
+body {
+    min-inline-size: 375px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main {
+    min-inline-size: 375px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(180deg, #FF7A7A 0%, #FFF 70%, rgba(255, 255, 255, 0) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title {
+    display: inline;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header__arrow_down {
+    width: 50px;
+    height: 50px;
+}
+
+.menu {
+    height: 80px;
+    max-width: 100vw;
+    background: #FF7A7A;
+}
+
+.menu_ul {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    min-width: 185px;
+    text-align: center;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li:hover {
+    background: #c09696;
+}
+
+.biografy {
+    max-inline-size: 1110px;
+    margin: 0 auto;
+    padding-block-start: 25px;
+}
+
+.biografy__content {
+    display: flex;
+}
+
+.biografy__content_name {
+    text-align: center;
+}
+
+.biografy__content_img {
+    width: 400px;
+}
+
+.achievment   {
+    max-inline-size: 1110px;
+    margin: 0 auto;
+    padding-block-start: 25px;
+}
+
+.achievment__content_title {
+    text-align: center;
+}
+
+.achievment__content_description {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.achievment__content_description_img {
+    width: 200px;
+}
+
+.footer {
+    height: 200px;
+    margin: 0 auto;
+    padding-block-start: 25px;
+    background-color: #FF7A7A;
+}
+
+.footer__zone {
+    display: flex;
+    justify-content: space-between;
+    max-inline-size: 1110px;
+    margin: 0 auto;
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__zone_links_title {
+    font-family: "Ubuntu Sans", monospace ;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.footer__zone_links {
+    font-family: "Ubuntu Sans", monospace ;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
