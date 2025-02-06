@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Italiana';
+    src: url(/src/fonts/Italiana-Regular.woff2) format('woff2'), url(/src/fonts/Italiana-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ubuntu Sans';
+	src: url(/src/fonts/UbuntuSans-Regular.woff) format('woff2'), url(/src/fonts/UbuntuSans-Regular.woff) format('woff');
+	font-weight: 1;
+	font-style: normal;
+}
+
+.font_ubuntu {
+    font-family: "Ubuntu Sans", monospace ;
+    text-align: justify;
+}
+
+.font_italiana {
+    font-family: "Italiana", monospace ;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 200px;
+    margin: 0 auto;
+    padding-block-start: 25px;
+    background-color: #FF7A7A;
+}
+
+.footer__zone {
+    display: flex;
+    justify-content: space-between;
+    max-inline-size: 1110px;
+    margin: 0 auto;
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__zone_links_title {
+    font-family: "Ubuntu Sans", monospace ;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.footer__zone_links {
+    font-family: "Ubuntu Sans", monospace ;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

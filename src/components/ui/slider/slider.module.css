@@ -1,0 +1,26 @@
+.main {
+    padding-block-start: 25px;
+    max-inline-size: 1110px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    object-fit: contain;
+    height: 600px;
+}
+
+.mainImg {
+    object-fit: contain;
+    max-inline-size: 750px;
+    min-inline-size: 375px;
+    height: 100%;
+}
+
+.photos {
+    max-inline-size: 200px;
+    min-inline-size: 37px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+

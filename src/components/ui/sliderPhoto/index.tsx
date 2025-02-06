@@ -1,0 +1,1 @@
+export {SliderPhotoUI} from "./sliderPhoto"

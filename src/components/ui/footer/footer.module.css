@@ -1,0 +1,26 @@
+@import url('../../../fonts/font.scss');
+
+.footer {
+    height: 25vh;
+    background: linear-gradient(180deg, #FF7A7A 0%, #FFF 70%, rgba(255, 255, 255, 0) 100%);
+    background-size: cover;
+    background-position: center;
+}
+
+.footerMenu {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.footerListItem {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-family: "UbuntuSans";
+
+}
+
+.footerListItemBold {
+    font-family: "UbuntuSansBold";
+
+}

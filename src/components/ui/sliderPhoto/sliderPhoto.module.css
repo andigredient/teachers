@@ -1,0 +1,12 @@
+.listItem {
+    list-style-type: none;
+}
+
+.photo {
+    object-fit: contain;
+    width: 100%;
+}
+
+.photo:hover {
+    filter: grayscale(100%)
+}

@@ -1,0 +1,1 @@
+export {BiografyUI} from "./biografy"

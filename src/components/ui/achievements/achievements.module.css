@@ -1,0 +1,13 @@
+.title {
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.img {
+    width: 200px;
+}

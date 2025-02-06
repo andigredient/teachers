@@ -1,0 +1,40 @@
+.slider {
+    padding-block-start: 25px;
+    max-inline-size: 1110px;
+
+    margin: 0 auto;
+}
+
+.slider__main {
+    display: flex;
+    gap: 15px;
+    object-fit: contain;
+    height: 600px;
+
+}
+
+.slider__main-img {
+    object-fit: contain;
+    max-inline-size: 750px;
+    min-inline-size: 375px;
+    height: 100%;
+    background-color:rgba(155, 155, 155, 0.801);
+}
+
+.slider___menu_photo {
+    object-fit: contain;
+    width: 100%; 
+}
+
+.slider___menu_photo:hover {
+    filter: grayscale(100%)
+}
+
+.slider__main-menu {
+    max-inline-size: 200px;
+    min-inline-size: 375;
+
+    overflow-y:scroll;
+
+}
+

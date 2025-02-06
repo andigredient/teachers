@@ -1,0 +1,1 @@
+export { Biografy } from './biografy';
